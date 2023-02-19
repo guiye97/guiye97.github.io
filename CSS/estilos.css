@@ -1,0 +1,46 @@
+*{
+    border: 1px;
+    box-sizing: border-box;
+    grid-template-rows: max-content;
+   
+}
+.v-line{
+  border-left: solid black;
+  height:100%;
+  left: 30%;
+  position: absolute;
+ }
+body{
+  background-color:aquamarine ;
+}
+
+.p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    border-bottom:solid black;
+    padding: 1px;
+    text-align:center;
+    background-color:yellow;
+ }
+  
+  .menu {
+    width: 30%;
+    float: left;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align-last: auto;
+    
+    
+    
+  }
+  
+  .main {
+    width: 70%;
+    float: left;
+    padding: 15px;
+   /* border-left: 1px solid red;*/
+    font-family: 'Roboto', sans-serif;
+    
+  }
