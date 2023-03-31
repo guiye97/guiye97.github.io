@@ -4,43 +4,76 @@
     grid-template-rows: max-content;
    
 }
-.v-line{
-  border-left: solid black;
-  height:100%;
-  left: 30%;
-  position: absolute;
- }
-body{
-  background-color:aquamarine ;
-}
-
-.p{
-    font-family: 'Roboto', sans-serif;
-}
-
-.header {
-    border-bottom:solid black;
-    padding: 1px;
-    text-align:center;
-    background-color:yellow;
- }
-  
-  .menu {
-    width: 30%;
-    float: left;
-    padding: 15px;
-    font-family: 'Roboto', sans-serif;
-    text-align-last: auto;
-    
-    
-    
-  }
-  
-  .main {
-    width: 70%;
-    float: left;
-    padding: 15px;
-   /* border-left: 1px solid red;*/
-    font-family: 'Roboto', sans-serif;
-    
-  }
+html {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+      h1 {
+        display: flex;
+        align-items: center;
+        font-size: 28px;
+        font-weight: bold;
+        margin: 0;
+      }
+      img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+      .menu {
+        position: relative;
+        padding: 20px;
+        width: 50%;
+        border-right: 3px solid black;
+        height: 73.8vh;
+      }
+      h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 10px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      .main {
+        padding: 20px;
+        width: 50%;
+      }
+      h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 10px;
+      }
+      h4 {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 18px;
+        margin-top: 0;
+      }
+      .contenedor {
+        display: flex;
+      }
